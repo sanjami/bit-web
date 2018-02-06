@@ -1,0 +1,22 @@
+#p1 {
+    color:rgb(0, 0, 0);
+    opacity: 0.8;
+}
+
+#p2 {
+    color:rgba(13, 14, 14, 0.9);
+}
+
+#p3 {
+    color:	#000000;
+}
+
+#div1{
+    background-color: rgb(72, 164, 221);
+    opacity: 0.2;
+}
+
+#div2{
+    background-color: rgba(127, 204, 255, 0.5);
+
+}
