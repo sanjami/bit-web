@@ -1,0 +1,25 @@
+ul{
+   font-family: 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+li a{
+    text-shadow: 5px 5px 30px rgba(0, 96, 0, 1);
+    color: rgb(0, 0, 0);
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: blue;
+}
