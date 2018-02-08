@@ -1,0 +1,52 @@
+p {
+    background-color: yellow;
+    border-width: 5px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.p1 {
+    border-color: red;
+    border-style: dashed;
+}
+
+#p2 {
+    border-color: green;
+    border-style: solid;
+    width: 400px;
+    visibility: hidden;
+}
+
+#par1 {
+    width: 300px;
+}
+
+#par3:hover {
+    visibility: hidden;
+}
+
+#par3 {
+    width: 400px;
+}
+
+@font-face {
+    font-family: 'AlexBrush-Regular';
+    src: url('AlexBrush-Regular.ttf');   
+}
+
+h1 {
+    width: 960px;
+    margin: 1px auto 1px auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: violet;
+    color: aqua;
+    font-family: AlexBrush-Regular, Arial, Helvetica, sans-serif;
+    -webkit-box-shadow: 36px 40px 2px -1px rgba(37,75,153,1);
+-moz-box-shadow: 36px 40px 2px -1px rgba(37,75,153,1);
+box-shadow: 36px 40px 2px -1px rgba(37,75,153,1);
+border-radius: 20px;
+}

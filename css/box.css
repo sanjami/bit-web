@@ -1,0 +1,14 @@
+#parHidden {
+    background-color: yellow;
+    max-width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+#parScroll {
+    background-color:  red;
+    min-height: 40px;
+    max-height: 400px;
+    overflow: scroll;
+}
+

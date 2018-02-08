@@ -1,0 +1,24 @@
+#circle {
+    list-style-type: circle;
+}
+
+#square {
+    list-style-type: square;
+}
+
+#alpha {
+    list-style-type: upper-alpha;
+}
+
+#roman {
+    list-style-type: upper-roman;
+}
+
+.listWithImage {
+    list-style-image: url(marker.png);
+    width: 200px;
+}
+
+#imageInBox {
+    list-style-position: inside;   
+}
