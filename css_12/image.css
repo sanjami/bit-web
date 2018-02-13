@@ -1,0 +1,22 @@
+img {
+    display: block;
+}
+
+img:nth-child(1) {
+    height: 200px;
+    float: right;
+    clear:left;
+}
+
+img:nth-child(2){
+    width: 200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+img:nth-child(3) {
+    height: 200px;
+    width: 200px;
+    float: left;
+    clear: right;
+}
