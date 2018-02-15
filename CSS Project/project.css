@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-image: url('images/banner3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+header h2 {
+    padding: 20% 7% 10% 7%;
+    color: white;
+    margin-top: 0px;
+}
+
+button {
+    background-color: rgb(40, 101, 194);
+    padding: 2%;
+    border: 1px solid rgb(40, 101, 194);
+    border-radius: 25%;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 15px;
+
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+}
+
+span {
+    color: orange;
+    border: 4px solid gray;
+    border-right: none;
+}
+
+nav ul {
+    text-align: center;
+    background-color: rgb(128, 204, 255);
+    color: white;
+    padding-left: 0px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+nav li {
+    padding: 2%;
+}
+
+.whoWeAre {
+    margin: 7%;
+}
+#aboutUs {
+    text-align: center;
+    font-size: 34px;
+    margin-top: 15%;
+    margin-bottom: 10%
+}
+h3 {
+    color:rgb(128, 204, 255);
+}
+
+.whoWeAre li {
+    list-style-image: url("images/arrow_bullet.png");
+    padding-bottom: 4%;
+    color: gray;
+}
+
+.whoWeAre ul {
+    padding-left: 18px; 
+}
+
+.whoWeAre p {
+    margin-bottom: 7%;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+header {
+    position: relative;
+}
+
+ h1 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    padding: 0px;
+}
+nav ul {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: inherit;
+    width: 40%;
+}
+ nav li {
+     display: inline;
+     font-size: 16px;
+ }
+
+ header h2 {
+     font-size: 30px;
+ }
+
+ #aboutUs {
+     margin-top: 10;
+}
+
+.whoWeAre {
+    position: relative;
+}
+
+.whoWeAre img {
+    position: absolute;
+    top: 27%;
+    right: 0;
+    width: 45%;
+
+}
+
+.whoWeAre p:nth-child(3) {
+    width: 50%;
+}
+
+} 
+
+@media (min-width: 1200px) {
+
+    nav ul {
+        width: 20%;
+        display: inline;
+    }
+
+nav li {
+    font-size: 12px;
+}
+
+.whoWeAre img {
+    width: 25%;
+
+}
+
+.whoWeAre p {
+    width: 20%;
+    display: inline-block;
+}
+
+#welcome {
+    width: 60%;
+    
+}
+
+}
