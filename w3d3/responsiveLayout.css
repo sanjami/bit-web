@@ -1,0 +1,158 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 23, 23);
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+}
+
+h1 {
+    /* width: 100%; */
+    margin: 2% auto;
+    color: black;
+}
+
+header img {
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+ul li {
+    list-style: none;
+    border-bottom:  1px solid lightgray;
+    padding: 2%;
+}
+
+ul {
+    margin: 2% 0;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-radius: 5px 5px 0 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    background-color: rgb(77, 106, 235);
+}
+
+li:hover a {
+    color: white;
+}
+
+/* Main */
+
+main {
+    width: 100%;
+}
+
+main img {
+    width: 100%;
+}
+
+article {
+    border: 1px solid lightgray;
+    padding: 1%;
+    margin: 2% 0;
+    border-radius: 5px;
+}
+
+p {
+    padding: 2% 1%;
+}
+
+
+
+
+/* Responsive for tablet */
+
+
+@media screen and (min-width:768px){
+
+    header {
+        text-align: left;
+        position: relative;
+    }
+
+    ul {
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        padding: 1%;
+        border: 0;
+        width: 35%;
+    }
+
+    ul li {
+        border-bottom: 0;
+        box-sizing: border-box;
+        padding: 4% 5%;
+        float: left;
+        margin-right: 1%;
+    }
+
+    li:hover {
+        border: 1px solid rgb(77, 106, 235);
+        border-radius: 5px;
+    }
+
+    article img {
+        float: left;
+        width: 40%;
+    }
+
+    p {
+       padding: 2%;
+       width: 60%;
+       float: right;
+    }
+
+    article {
+        overflow: hidden;
+    }
+     
+}
+
+/* Responsive for other devices */
+
+@media screen and (min-width:992px) {
+
+
+    article {
+        display: inline-block;
+        width: 33%;
+        border: 0;
+    }
+
+    article img {
+        float: none;
+        width: 100%;
+    }
+
+    p {
+        float: none;
+        width: 100%;
+        text-indent: 5%;
+    }
+
+}
