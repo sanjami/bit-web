@@ -13,12 +13,11 @@
 <body>
     <header>
         <h2>WE SHAPE OUR BUILDINGS THEREAFTER THEY SHAPE US</h2>
-        <button type="button">Read More</button>
+        <button type="button"><a href="3">Read More</a></button>
     </header>
     <main>
-        <h1>
-            <span>BUILD</span> ESTATE</h1>
-        <nav>
+        <h1> <span>BUILD</span> ESTATE</h1>
+        <nav id="navTop">
             <ul>
                 <li>HOME</li>
                 <li>ABOUT</li>
@@ -26,7 +25,7 @@
                 <li>CONTACT US</li>
             </ul>
         </nav>
-        <h2 id="aboutUs">Who We Are</h2>
+        <h2 id="aboutUs"><span>Who We Are</span></h2>
         <article class="whoWeAre" id="welcome">
             <h3>Welcome To Our Build Estate</h3>
             <p>
@@ -59,7 +58,8 @@
             </ul>
 
         </article>
-        <h2 id="people">What People Says</h2>
+        <h2 id="people"><span>What People Says</span> </h2>
+        <div id="peopleArticle">
         <article class="people_says">
             <img src="images/t1.jpg" alt="will">
             <div>
@@ -87,7 +87,7 @@
             <p>Nam tempus lobortis sem non omare. Curabitur dignissim interdum sem, et mollis lorem. Mauris hendrerit, mi in
                 aliquet egestas, nisi mi turpis.</p>
         </article>
-        <article class="people_says">
+        <article class="people_says" id="people_says_last">
             <img src="images/t3.jpg" alt="sally">
             <div>
 
@@ -101,10 +101,78 @@
             <p>Nam tempus lobortis sem non omare. Curabitur dignissim interdum sem, et mollis lorem. Mauris hendrerit, mi in
                 aliquet egestas, nisi mi turpis.</p>
         </article>
-
+    </div>
+        <h2 id="getInTouch"><span> Get In Touch Whith Us</span></h2>
+        <section>
+            <div id="contact">
+                <h2>CONTACT US</h2>
+                <p>
+                    <i class="fa fa-mobile" style="font-size:30px" ></i> +0(12) 000 123 3120
+                </p>
+                <p>
+                    <i class="fa fa-envelope" style="font-size:20px" ></i> mail@example.com</p>
+            </div>
+            <div id="connect">
+                <h2>CONNECT US</h2>
+                <a href="#">
+                    <i class="fa fa-facebook-f" style="font-size:24px"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter" style="font-size:24px"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-rss" style="font-size:24px"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram" style="font-size:24px"></i>
+                </a>
+            </div>
+            <div id="address">
+                <h2>ADDRESS</h2>
+                <address>
+                    <i class="fa fa-map-marker" style="font-size:20px"></i> 1680 Richmond St, Corner in, ON N58 3d7, USA</address>
+            </div>
+            <div id="house">
+                <img src="Images/house.png" alt="house">
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.956542457239!2d-75.09571338516781!3d39.98707648958263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c9d995d5d207%3A0xb5ba8cb5ab64c960!2zUmljaG1vbmQgU3QsIFBoaWxhZGVscGhpYSwgUEEsINCh0ZjQtdC00LjRmtC10L3QtSDQlNGA0LbQsNCy0LU!5e0!3m2!1ssr!2srs!4v1518868860952" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+        <section>
+            <h2 id="mailUs"><span> Mail Us</span></h2>
+        
+            <form action="http://buildestate.com" metod='GET'>
+                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="tel" name="tel" id="tel" placeholder="Telephone">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="Submit" id='submit'>
+            </form>
+        </section>
     </main>
     <footer>
-
+        <nav id="navBottom">
+            <ul>
+                <li>
+                    <a href="http://#">Home</a>
+                </li>
+                <li>
+                    <a href="http://#">About</a>
+                </li>
+                <li>
+                    <a href="http://#">Services</a>
+                </li>
+                <li>
+                    <a href="http://#">Stats</a>
+                </li>
+                <li>
+                    <a href="http://#">Agents</a>
+                </li>
+                <li>
+                    <a href="http://#">Testimonials</a>
+                </li>
+            </ul>
+        </nav>
+        <p><i class="fa fa-copyright"></i>2017 Build Estate. All Rights Reserved</p>
     </footer>
 </body>
 
