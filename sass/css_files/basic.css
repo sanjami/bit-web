@@ -1,0 +1,20 @@
+#first {
+  background-color: #953bb1;
+  font-size: 16px;
+  font-family: cursive; }
+
+#second {
+  text-shadow: 4px 4px 3px rgba(235, 231, 23, 0.8);
+  font-size: 30px;
+  font-family: cursive; }
+
+#third {
+  width: 70%;
+  box-shadow: 20px 20px 50px 45px rgba(125, 226, 30, 0.75);
+  -webkit-box-shadow: 20px 20px 50px 45px rgba(125, 226, 30, 0.75);
+  -moz-box-shadow: 20px 20px 50px 45px rgba(125, 226, 30, 0.75);
+  font-size: 30px;
+  color: #953bb1;
+  font-family: cursive; }
+
+/*# sourceMappingURL=basic.css.map */

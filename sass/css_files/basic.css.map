@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,MAAO;EACH,gBAAgB,ECJZ,OAAiB;EDKrB,SAAS,EAAE,IAAI;EACf,WAAW,ECJF,OAAO;;ADOpB,OAAQ;EERJ,WAAW,EFSU,mCAAmC;EERxD,SAAS,EDDN,IAAI;ECEP,WAAW,EDDF,OAAO;;ADWpB,MAAO;EACH,KAAK,EAAE,GAAG;EERT,UAAU,EFSS,4CAA4C;EER/D,kBAAkB,EFQC,4CAA4C;EEP/D,eAAe,EFOI,4CAA4C;EEN/D,SAAS,EFMwD,IAAI;EELrE,KAAK,EDVF,OAAiB;ECWpB,WAAW,EDTH,OAAO",
+"sources": ["../sass_files/basic.scss","../sass_files/_variables.scss","../sass_files/_mixins.scss"],
+"names": [],
+"file": "basic.css"
+}

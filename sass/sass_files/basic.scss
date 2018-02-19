@@ -1,0 +1,18 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+#first {
+    background-color: $color;
+    font-size: 16px;
+    font-family: $font_family;
+}
+
+#second {
+    @include text-shadow(4px 4px 3px rgba(235, 231, 23, 0.8), $font, $font_family);
+}
+
+#third {
+    width: 70%;
+    @include box-shadow(20px 20px 50px 45px rgba(125, 226, 30, 0.75), 30px, $color, $font_family);
+}
+
