@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+    background-color: green;
+    font-size: 50px;
+    &:active {
+        background-color: yellow;
+    }
+
+    &:visited {
+        background-color: orange;
+    }
+
+    &.important {
+        font-weight: bold;
+    }
+    
+}

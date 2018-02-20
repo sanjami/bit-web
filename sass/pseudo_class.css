@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  background-color: green;
+  font-size: 50px; }
+  a:active {
+    background-color: yellow; }
+  a:visited {
+    background-color: orange; }
+  a.important {
+    font-weight: bold; }
+
+/*# sourceMappingURL=pseudo_class.css.map */

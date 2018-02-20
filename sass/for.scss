@@ -1,0 +1,60 @@
+@mixin background_color($n) {
+    @if $n == 1 {
+        background-color: red;
+    }
+    @else if $n == 2 {
+        background-color: green;
+    }
+    @else if $n == 3 {
+        background-color: hotpink;
+    }
+    @else {
+        background-color: yellow;
+    }
+}
+
+
+@for $i from 1 through 4 {
+
+    p:nth-child(#{$i}) {
+        font-size: 16px + ($i - 1) * 2px;
+        @include background_color($i)
+    }
+
+}
+
+@function translate($content-width, $padding, $border) {
+
+    @return $content-width + 2*$padding + 2*$border;
+}
+
+p:nth-child(1) {
+    box-sizing: border-box;
+    padding: 20px;
+    border:  2px solid green;
+    width: translate(370px, 20px, 2px);
+}
+
+p:nth-child(2) {
+    width: 370px;
+    padding: 20px;
+    border: 2px solid green;
+}
+
+
+@function calculatecolumn($width-table, $number) {
+
+    @return $width-table / $number;
+}
+
+table {
+    box-sizing: content-box;
+    width: 500px;
+    background-color: orange;
+    border: 10px solid green;
+}
+
+// td {
+//     width: calculatecolumn(500px, 4) ;
+// }
+

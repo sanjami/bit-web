@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,IAAK;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,MAAM;;AAKlB,yDAAG;EACC,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,cAAoB;EAC3B,YAAY,EAAE,aAAmB;EACjC,MAAM,EAAE,SAAS;EACjB,OAAO,EAAE,YAAY;;AAGzB,gBAAiB;EAEb,YAAY,EAAE,GAAG;;AAGrB,iBAAkB;EAEd,YAAY,EAAE,IAAI;;AAGtB,gBAAiB;EAEb,YAAY,EAAE,KAAK",
+"sources": ["inheritance_operators.scss"],
+"names": [],
+"file": "inheritance_operators.css"
+}

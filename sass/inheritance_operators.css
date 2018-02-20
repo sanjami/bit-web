@@ -1,0 +1,22 @@
+body {
+  width: 960px;
+  margin: 0 auto; }
+
+.p, #first-paragraph, #second-paragraph, #third-paragraph {
+  font-size: 23px;
+  line-height: 32px;
+  width: 29.1666666667%;
+  margin-right: 2.0833333333%;
+  border: 1px solid;
+  display: inline-block; }
+
+#first-paragraph {
+  border-color: red; }
+
+#second-paragraph {
+  border-color: blue; }
+
+#third-paragraph {
+  border-color: green; }
+
+/*# sourceMappingURL=inheritance_operators.css.map */

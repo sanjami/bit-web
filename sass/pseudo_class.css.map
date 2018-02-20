@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,CAAE;EACE,eAAe,EAAE,IAAI;EACrB,gBAAgB,EAAE,KAAK;EACvB,SAAS,EAAE,IAAI;EACf,QAAS;IACL,gBAAgB,EAAE,MAAM;EAG5B,SAAU;IACN,gBAAgB,EAAE,MAAM;EAG5B,WAAY;IACR,WAAW,EAAE,IAAI",
+"sources": ["pseudo_class.scss"],
+"names": [],
+"file": "pseudo_class.css"
+}
