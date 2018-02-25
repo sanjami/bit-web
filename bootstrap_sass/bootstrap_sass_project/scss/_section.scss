@@ -1,0 +1,24 @@
+section {
+    padding-top: 5%;
+    background-color: white;
+    h2, h3 {
+        text-align: center;
+    }
+    form {
+        margin-top: 10%;
+        margin-bottom: 20%;
+        label {
+                color: #495057
+            }
+        .form-control {
+            border: none;
+            border-radius: 0%;
+            border-bottom: 1px ridge lightgrey;
+        }
+        button {
+            color: $colorOnDarkBeck;
+            background-color: $greenColor;
+            float: left;
+        }
+    }   
+}

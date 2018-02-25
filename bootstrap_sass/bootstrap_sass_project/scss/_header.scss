@@ -1,0 +1,18 @@
+header {
+    @include textElStyle();
+    h3 {
+        @media screen and (max-width: 768px) {
+            font-size: 32px;
+        };
+        @media screen and (min-width: 768px) {
+            font-size: 48px;
+        };
+    }
+}
+
+.profileImg {
+    width: 250px;
+    border: 1px solid $greenColor;
+    border-radius: $borderCircle;
+    margin-bottom: 5%;
+}

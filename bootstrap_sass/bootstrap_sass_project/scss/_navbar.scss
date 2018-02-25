@@ -1,0 +1,31 @@
+
+nav {
+    .navbar-brand{
+        margin-left:15%;
+        @media screen and (max-width: 992px){
+            margin-left:10%;
+        };
+        @media screen and (max-width: 768px) {
+            margin-left:1%;
+        };
+    };
+    #navBtn {
+        border-color: $colorOnDarkBeck;
+        @media screen and (max-width: 992px){
+            margin-right:10%;
+        };
+        @media screen and (max-width: 768px) {
+            margin-right:1%;
+        };
+    }
+    #navbarSupportedContent{
+        margin-top: 1%;
+        font-size: 12px;
+        @media screen and (min-width: 992px) {
+            margin-right:10%;
+        };
+        @media screen and (max-width: 768px) {
+            font-size: 20px;
+        };
+    }
+}
