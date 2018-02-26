@@ -1,33 +1,19 @@
-table {
-
-    border-bottom-style: solid;
-    border-bottom-color: #F8F8F8;
-    margin: 10px auto 10px auto;
-    width: 30%;
-    height: 300px;
-    border-collapse: collapse;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#redrow {
-    background-color:#C62626 ;
+.first {
+    background-color: aliceblue;
 }
 
-td {
-    padding: 10px 0px 10px 0px;
-    text-align: center;
+.second {
+    background-color: hotpink;
 }
 
-tr:nth-child(odd) {
-    background-color: lightgray;
+.third {
+    background-color: blue;
 }
 
-tr:hover {
-    background-color: yellow;
+.fourth {
+    background-color: rgb(90, 223, 28);
 }
 
-th {
-    color: white;
-    padding: 10px 10px 10px 10px;
+.fifth {
+    background-color: blueviolet;
 }
-
