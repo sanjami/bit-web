@@ -1,53 +1,119 @@
+@font-face {
+  font-family: lato;
+  src: url(vendor/font-awesome/Lato-Black.ttf);
+  font-family: lato-bold;
+  src: url(vendor/font-awesome/Lato-Bold.ttf); }
+body {
+  font-family: lato;
+  font-size: 20px; }
+
+h1, h2, h3, h4, h5 {
+  font-family: lato-bold;
+  font-weight: bold; }
+
+h2 {
+  margin-top: 5%;
+  font-size: 2.5rem; }
+
+h5 {
+  margin: 10% 0;
+  font-size: 28px; }
+
+nav .navbar-brand {
+  margin-left: 15%; }
+  @media screen and (max-width: 992px) {
+    nav .navbar-brand {
+      margin-left: 10%; } }
+  @media screen and (max-width: 768px) {
+    nav .navbar-brand {
+      margin-left: 1%; } }
+nav #navBtn {
+  border-color: white; }
+  @media screen and (max-width: 992px) {
+    nav #navBtn {
+      margin-right: 10%; } }
+  @media screen and (max-width: 768px) {
+    nav #navBtn {
+      margin-right: 1%; } }
+nav #navbarSupportedContent {
+  margin-top: 1%;
+  font-size: 12px; }
+  @media screen and (min-width: 992px) {
+    nav #navbarSupportedContent {
+      margin-right: 10%; } }
+  @media screen and (max-width: 768px) {
+    nav #navbarSupportedContent {
+      font-size: 20px; } }
+
 header {
   text-align: center;
   background-color: #18bc9c;
   color: white;
-  padding: 10%; }
+  padding: 10% 0%; }
+  @media screen and (max-width: 768px) {
+    header h3 {
+      font-size: 32px; } }
+  @media screen and (min-width: 768px) {
+    header h3 {
+      font-size: 48px; } }
 
 .profileImg {
+  width: 250px;
   border: 1px solid #18bc9c;
   border-radius: 50%;
   margin-bottom: 5%; }
 
-main {
+#main {
   text-align: center;
   width: 75%; }
-  main .row {
+  #main .row {
     margin: 0 auto 15% auto; }
-
-img {
-  width: 100%;
-  margin: 1%; }
+  #main img {
+    width: 100%;
+    margin: 4%; }
 
 article {
   text-align: center;
   background-color: #18bc9c;
   color: white;
-  padding: 10%; }
+  padding: 10% 0%; }
 
 section {
-  text-align: center;
-  background-color: #18bc9c;
-  color: white;
-  padding: 10%;
+  padding-top: 5%;
   background-color: white; }
+  section h2, section h3 {
+    text-align: center; }
+  section form {
+    margin-top: 10%;
+    margin-bottom: 20%; }
+    section form label {
+      color: #495057; }
+    section form .form-control {
+      border: none;
+      border-radius: 0%;
+      border-bottom: 1px ridge lightgrey; }
+    section form button {
+      color: white;
+      background-color: #18bc9c;
+      float: left; }
 
-h3 {
-  color: black; }
-
-.form-control {
-  border: none;
-  border-bottom: 1px ridge #495057;
-  color: #495057; }
-
-form button {
-  background-color: #18bc9c;
-  float: left; }
-
-footer, .card {
+footer {
   background-color: #2c3e50;
+  padding: 3% 0 3% 0;
   text-align: center;
   color: white;
   border: none; }
+  footer .nav {
+    margin: 5% 15%; }
+    footer .nav li {
+      margin: 0 1%; }
+      footer .nav li a {
+        border: 2px solid white;
+        border-radius: 50%; }
+        footer .nav li a i {
+          font-size: 12px; }
+  footer #last {
+    margin: 10% auto 2% auto;
+    width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

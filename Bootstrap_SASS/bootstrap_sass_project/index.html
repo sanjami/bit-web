@@ -19,123 +19,173 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
-    <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light bg-dark">
-                <a class="navbar-brand text-light" href="#">BIT STUDENT</a>
-                <button class="navbar-toggler text-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">MENU
-                    <span ><i class="fa fa-bars"  style="color: white" aria-hidden="true"></i></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-dark fixed-top">
+        <a class="navbar-brand text-light" href="#">BIT STUDENT</a>
+        <button class="navbar-toggler text-light" id="navBtn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">MENU
+            <span>
+                <i class="fa fa-bars" style="color: white" aria-hidden="true"></i>
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">PORTFOLIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container-fluid pt-4">
+            <img src="./img/profile.png" alt="profile-picture" class="profileImg">
+            <h3>BOOTSTRAP AND SASS</h3>
+            <h3>────
+                <i class="fa fa-star"></i>────</h3>
+            <p>Web Developer - Graphic Artist - User Experience Designer</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid" id="main">
+            <h2>PORTFOLIO</h2>
+            <h3>────
+                <i class="fa fa-star"></i> ────</h3>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="img/portfolio/cabin.png" alt="cabin">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="img/portfolio/cake.png" alt="cake">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="img/portfolio/circus.png" alt="circus">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="img/portfolio/game.png" alt="game">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="img/portfolio/safe.png" alt="safe">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <img src="img/portfolio/submarine.png" alt="submarin">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <article>
+        <div class="container-fluid">
+            <h2>ABOUT</h2>
+            <h3>────
+                <i class="fa fa-star"></i> ────</h3>
+            <div class=row "">
+                <div class="col-lg-3 offset-lg-3">
+                    <p class="text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur iste illum minus porro sequi non eligendi,
+                        expedita magnam eaque optio odit, dolore dolores quam minima reprehenderit numquam sunt libero saepe
+                        quod?
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <p class="text-left">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi repudiandae, soluta animi magni eius, minus fuga nam totam
+                        error architecto, tempore obcaecati sapiente eos optio ducimus nihil debitis neque? Voluptatem.
+                    </p>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-light">
+                <i class="fa fa-info-circle"></i> Find Out more</button>
+        </div>
+    </article>
+
+    <section>
+        <div class="container-fluid">
+            <h2>CONTACT ME</h2>
+            <h3 class="h3">────
+                <i class="fa fa-star"></i> ────</h3>
+            <div class="row">
+                <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Adress</label>
+                            <input type="email" class="form-control" id="email">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" class="form-control" id="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button class="btn" id="formBatton" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>LOCATION</h5>
+                    <adress>Centar za obrazovanje
+                        <br> BIT TECHNOLOGY
+                        <br> Nemanjina 4/1, Beograd</adress>
+                </div>
+                <div class="col-md-4">
+                    <h5>AROUND THE WEB</h5>
+                    <ul class="nav">
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">PORTFOLIO</a>
+                            <a class="btn btn-outline-light" href="#">
+                                <i class="fa fa-fw fa-facebook"></i>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">ABOUT</a>
+                            <a class="btn btn-outline-light" href="#">
+                                <i class="fa fa-fw fa-google-plus"></i>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">CONTACT</a>
+                            <a class="btn btn-outline-light" href="#">
+                                <i class="fa fa-fw fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-outline-light" href="#">
+                                <i class="fa fa-fw fa-linkedin"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
-            </nav>
-
-            <header>
-
-                <img src="./img/profile.png" alt="profile-picture" class="profileImg">
-                <h3>BOOTSTRAP AND SASS</h3>
-                <h3>────  ────</h3>
-                <p>Web Developer - Graphic Artist - User Experience Designer</p>
-
-            </header>
-    </div>
-        <main class="container-fluid">
-        <h2>PORTFOLIO</h2>
-        <h3>──── <i class="fa fa-star-o"></i> ────</h3>
-            <div class="row">
-                <div class="col-sm-12">
-                    <img src="img/portfolio/cabin.png" alt="cabin">
+                <div class="col-md-4">
+                    <h5>MORE DETAILS</h5>
+                    <p class="card-text">We belive that future of Serbia depends on our ability to scale the number of individuals involved in
+                        IT sector.That is why we founded BIT.</p>
                 </div>
-                <div class="col-sm-12">
-                    <img src="img/portfolio/cake.png" alt="cake">
-                </div>
-                <div class="col-sm-12">
-                        <img src="img/portfolio/circus.png" alt="circus">
-                </div>
-                <div class="col-sm-12">
-                        <img src="img/portfolio/game.png" alt="game">
-                </div>
-                <div class="col-sm-12">
-                        <img src="img/portfolio/safe.png" alt="safe">
-                </div>
-                <div class="col-sm-12">
-                        <img src="img/portfolio/submarine.png" alt="submarin">
+                <div class="coll" id="last">
+                    Copyright
+                    <i class="fa fa-copyright"></i> Bit Student 2017
+                    <br>
+                    <small> Bit Thanks to Start Bootsrap!</small>
                 </div>
             </div>
-        </main>
-        <article class="container-fluid">
-                <h3>ABOUT</h3>
-                <h3>──── <i class="fa fa-star"></i> ────</h3>
-                <p class="text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur iste illum minus porro sequi non eligendi, expedita magnam eaque optio odit, dolore dolores quam minima reprehenderit numquam sunt libero saepe quod?
-                </p>
-                <p class="text-left">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi repudiandae, soluta animi magni eius, minus fuga nam totam error architecto, tempore obcaecati sapiente eos optio ducimus nihil debitis neque? Voluptatem.
-                </p>
-                <button type="button" class="btn btn-outline-light"><i class="fa fa-info-circle"></i>Find Out more</button>
-
-        </article>
-        <section class="container-fluid">
-                <h3>CONTACT ME</h3>
-                <h3>──── <i class="fa fa-star"></i> ────</h3>
-                <form>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="name"  placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="inputEmail" placeholder="Email Adress">
-                    </div>
-                    <div class="form-group">
-                            <input type="text" class="form-control" id="phone" placeholder="Phone Number">
-                            </div>
-                    <div class="form-group">
-                            <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
-                            </div>
-                    <button class="btn" type="submit">Send</button>
-                </form>
-        </section>
-        <footer>
-    <div class="card-group">
-            <div class="card">
-                <div class="card-body">
-                <h5 class="card-title">LOCATION</h5>
-                <p class="card-text">Centar za obrazovanje BIT TECHNOLOGY Nemanjina 4/I Beograd</p>
-                </div>
-                <div class="card-footer">
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                <h5 class="card-title">Around the web</h5>
-                <p class="card-text"></p>
-                </div>
-                <div class="card-footer">
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                <h5 class="card-title">MORE DETAILS</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                </div>
-            </div>
-            </div>
-            Copyright Bit Student 2017
-            Bit Thanks to Start Bootsrap!
-        </footer>
-
+        </div>
+    </footer>
 
 </body>
 
