@@ -4,8 +4,7 @@ var print = function (message) {
 
 print("Good evening");
 
-
-
+/* .navigator */
 
 var browserPlatform = function() {
     var message = "Platform is " + navigator.platform + "\n" + " version is " + navigator.appVersion + "\n" + " company name is " + navigator.vendor;
@@ -36,6 +35,7 @@ var browserScreen = function() {
 
 browserScreen();
 
+
 /* .location */
 
 var browserLocation = function() {
@@ -44,9 +44,9 @@ var browserLocation = function() {
 
 browserLocation();
 
-var reloadPage = function() {
-    location.reload();
-}
+// var reloadPage = function() {
+//     location.reload();
+// }
 
 // reloadPage();
 
@@ -75,7 +75,44 @@ stor("marija", "programer");
 
 
 var getData = function(key) {
-    return storage.getItem(key);
+    if(storage.getItem(key) == undefined) {
+        console.log("There is not data");
+    } else {
+        return storage.getItem(key);
+    }
 };
 
 console.log(getData("marija"));
+
+// var deleteData = function(key) {
+//     storage.removeItem(key);
+//     console.log(storage);
+// };
+
+// deleteData("marija");
+
+// var storage = sessionStorage;
+
+// var stor = function(key, value) {
+//     storage.setItem(key, value)
+// };
+
+// stor("marija", "programer");
+
+
+var getData = function(key) {
+    if(storage.getItem(key) == undefined) {
+        console.log("There is not data");
+    } else {
+        return storage.getItem(key);
+    }
+};
+
+console.log(getData("marija"));
+
+// var deleteData = function(key) {
+//     storage.removeItem(key);
+//     console.log(storage);
+// };
+
+// deleteData("marija")
