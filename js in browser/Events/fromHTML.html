@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic</title>
+    <link rel="stylesheet" href="fromHTML.css">
+</head>
+
+<body>
+    <input type="button" value="Toggle Background" onclick="turnOn()">
+
+    <input type="button" value="Turn On" onclick="autoBgChange()">
+
+
+
+    <script type="text/javascript">
+        // function toggle(){
+        //     var body = document.querySelector('body');
+        //     body.classList.toggle('colorMe');
+        // }
+
+        function turnOn() {
+            var body = document.querySelector('body');
+            body.classList.toggle('colorMe');
+            var input = document.querySelector('input:last-of-type');
+            input.value = 'Turn Off';
+        }
+
+        var interval;
+
+        function autoBgChange() {
+            var button = document.querySelector('input:last-of-type');
+
+            if (button.getAttribute('value') === 'Turn Off') {
+                clearInterval(interval);
+                button.setAttribute('value', 'Turn On');
+            } else {
+                interval = setInterval(turnOn, 1000);
+                button.setAttribute('value', 'Turn Off');
+            }
+        }
+    </script>
+</body>
+
+</html>
