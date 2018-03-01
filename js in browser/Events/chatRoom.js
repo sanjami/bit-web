@@ -1,4 +1,5 @@
-document.querySelector('#send').onclick = function sendMessage () {
+
+function sendMessage() {
     console.log(event);
     var input = document.querySelector('input:first-of-type');
     var message = input.value;
@@ -6,14 +7,15 @@ document.querySelector('#send').onclick = function sendMessage () {
     var paragraph = document.createElement('p');
     paragraph.appendChild(messageText);
     document.querySelector('div').appendChild(paragraph);
-    message = '';
+    input.value = '';
 };
 
-
-
-
-document.querySelector('#send').onkeypress = function (event) {
-    if(event.keyCode == 13) {
+document.querySelector('#send').onclick = function (event) {
+    sendMessage();
+}
+document.querySelector('body').onkeydown = function (event) {
+    console.log(event);
+    if (event.code == "Enter") {
         sendMessage();
     }
 };

@@ -1,9 +1,10 @@
 body {
+    width: 1920px;
+    height: 1040px;
     background-image: url("images/field.png");
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid black;
-    height: 500px;
 }
 
 img {

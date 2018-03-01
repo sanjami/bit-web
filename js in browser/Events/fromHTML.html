@@ -14,32 +14,27 @@
 
     <input type="button" value="Turn On" onclick="autoBgChange()">
 
-
-
     <script type="text/javascript">
-        // function toggle(){
-        //     var body = document.querySelector('body');
-        //     body.classList.toggle('colorMe');
-        // }
 
         function turnOn() {
             var body = document.querySelector('body');
             body.classList.toggle('colorMe');
             var input = document.querySelector('input:last-of-type');
-            input.value = 'Turn Off';
         }
 
         var interval;
 
         function autoBgChange() {
-            var button = document.querySelector('input:last-of-type');
+            console.log('cliknuto')
+            var input = document.querySelector('input:last-of-type');
 
-            if (button.getAttribute('value') === 'Turn Off') {
+            if (input.getAttribute('value') === 'Turn On') {
+                console.log('blaaaa')
+                interval = setInterval(turnOn, 100);
+                input.setAttribute('value', 'Turn off');
+            } else {              
                 clearInterval(interval);
-                button.setAttribute('value', 'Turn On');
-            } else {
-                interval = setInterval(turnOn, 1000);
-                button.setAttribute('value', 'Turn Off');
+                input.setAttribute('value', 'Turn On');
             }
         }
     </script>
