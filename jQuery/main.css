@@ -1,0 +1,19 @@
+.b {
+    border-bottom: 1px solid blue;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+.active {
+    color: yellow;
+}
+
+.bg {
+    background-color: violet;
+}
+
+.inactive {
+    color: springgreen;
+}
