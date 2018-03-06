@@ -1,0 +1,24 @@
+body {
+    width: 1920px;
+    height: 1040px;
+    background-image: url('field.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+img {
+    width: 200px;
+    position: absolute;
+    top: 491px;
+    left: 854px;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+}
