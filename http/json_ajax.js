@@ -11,7 +11,7 @@ $('#search-box').click(function (event) {
         console.log(msg);
         for (var i = 0; i < 12; i++) {
             var photo = msg.items[i].avatar_url;
-            var name = msg.items[0].login;
+            var name = msg.items[i].login;
             var img = $('<img>');
             img.attr('src', photo);
             img.addClass('style');
